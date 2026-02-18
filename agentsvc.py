@@ -117,21 +117,11 @@ def get_classification():
                 content=user_prompt,
             )
 
-            print(f"Agent created: {agent.id}")
-            print(f"Thread created: {thread.id}")
-            print(f"Message created for: {merchant_name}")
-            print(f"About to create run...")
-
             run = agent_client.runs.create_and_process(thread_id=thread.id, agent_id=agent.id)
        
             # Check the run status for failures
             if run.status == "failed":
                 print(f"Run failed: {run.last_error}")
-                print(f"Run failed for {merchant_name}")
-                print(f"Run ID: {run.id}")
-                print(f"Last error: {run.last_error}")
-                print(f"Full run object: {run}")
-                print(f"Run dict: {run.__dict__}")
 
             # get response
             messages = list(agent_client.messages.list(
