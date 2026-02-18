@@ -121,7 +121,8 @@ def get_classification():
        
             # Check the run status for failures
             if run.status == "failed":
-                #print(f"Run failed: {run.last_error}")
+                print(f"Run failed: {run.last_error}")
+                print(f"Run failed: {run.status}")
 
             # get response
             messages = list(agent_client.messages.list(
