@@ -1,11 +1,6 @@
 category,subcategory
 1_CC Payments,CC Payment
 1_Transfer,Transfer
-5957 Related Expense,5957 Payback
-5957 Related Expense,Admin
-5957 Related Expense,Maintenance
-5957 Related Expense,Remodel
-5957 Related Expense,Utilities
 Automobile,AAA Membership
 Automobile,Automobile - DMV
 Automobile,Highlander Payments
@@ -30,7 +25,6 @@ Discretionary,Misc
 Discretionary,Parking
 Discretionary,Photography
 Discretionary,Plaid
-Discretionary,Shirlyn Lotto Games
 Discretionary,Travel
 Donation,Misc
 Encrichment,Arts
@@ -100,6 +94,5 @@ Utilities,ATT
 Utilities,LADWP
 Utilities,So Cal Gas
 Vacation,Vacation
-Vacation,Vacation: Ethiopia Air Tickets
 Work Travel,Work Travel - Non-Reimbursed
 Work Travel,Work Travel - Reimbursed
